@@ -2,6 +2,7 @@
 title: "Code Blocks"
 description: "Display inline code and code blocks"
 icon: "code"
+tag: "Private beta"
 ---
 
 ## Basic
@@ -32,12 +33,29 @@ FROM learning_component
 WHERE identifier = '0046446a-0a9b-5ace-92a3-23d4bb158c68';
 ```
 
-````markdown
-```sql HelloWorld.java
+```java
+HelloWorld.java
 class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 }
 ```
-````
+
+<CodeGroup>
+
+```javascript example.js
+//code here
+```
+
+
+```html example.html
+<!--code here-->
+```
+
+
+```python example.py 
+# code here
+```
+
+</CodeGroup>
